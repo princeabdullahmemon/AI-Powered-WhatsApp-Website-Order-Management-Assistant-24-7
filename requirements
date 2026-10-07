@@ -1,0 +1,35 @@
+### Technology & Integrations
+
+- **ElevenLabs** – AI voice and WhatsApp integration
+- **n8n** – Backend automation and workflow management
+- **Google Sheets** – Order management and OTP verification
+- **Webhooks / Web Tools** – Connect customer requests with backend actions
+
+### Required Google Sheets Setup
+
+Create one Google Spreadsheet with two sheets:
+
+1. **OTP Sheet** – Stores and verifies temporary OTPs.
+2. **My Orders Sheet** – Stores and manages customer orders and order details.
+
+An OTP script is used to generate temporary OTPs with a limited validity period.
+
+### How to Use
+
+1. Set up the **n8n workflow**.
+2. Connect **ElevenLabs** with the workflow.
+3. For WhatsApp, configure the required ElevenLabs WhatsApp integration.
+4. Import/configure the provided ElevenLabs Web Tools JSON files.
+5. Create the Google Spreadsheet with the **OTP** and **My Orders** sheets.
+6. Add the provided OTP script.
+7. Connect the Google Sheet with n8n.
+8. Configure the required credentials, webhooks, and settings.
+9. Start the workflow and use the assistant through WhatsApp or the website.
+
+The included Web Tools and workflow files can be customized according to the developer's requirements.
+
+### Security
+
+The system is designed with OTP-based verification for sensitive order operations. This helps prevent unauthorized users from changing or cancelling an order.
+
+> **Note:** API, ElevenLabs, n8n, and other service costs depend on the selected plans and usage. The project is designed to automate support operations and reduce the amount of manual work required.
