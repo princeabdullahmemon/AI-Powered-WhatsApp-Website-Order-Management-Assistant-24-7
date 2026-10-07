@@ -1,6 +1,6 @@
 ### Technology & Integrations
 
-- **ElevenLabs** – AI voice and WhatsApp integration
+- **ElevenLabs Agent** – AI voice and WhatsApp integration
 - **n8n** – Backend automation and workflow management
 - **Google Sheets** – Order management and OTP verification
 - **Webhooks / Web Tools** – Connect customer requests with backend actions
@@ -25,6 +25,7 @@ An OTP script is used to generate temporary OTPs with a limited validity period.
 7. Connect the Google Sheet with n8n.
 8. Configure the required credentials, webhooks, and settings.
 9. Start the workflow and use the assistant through WhatsApp or the website.
+10.also add knowledge database in ElevenLabs Agent
 
 The included Web Tools and workflow files can be customized according to the developer's requirements.
 
